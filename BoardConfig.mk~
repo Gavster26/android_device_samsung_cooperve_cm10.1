@@ -31,5 +31,5 @@ TARGET_BOOTLOADER_BOARD_NAME := cooperve
 BOARD_RECOVERY_HANDLES_MOUNT := true
 BOARD_HAS_DOWNLOAD_MODE := true
 BOARD_LDPI_RECOVERY := true
-TARGET_RECOVERY_INITRC := device/samsung/cooperve/recovery/recovery.rc
+TARGET_RECOVERY_INITRC := device/samsung/cooperve/recovery.rc
 TARGET_RECOVERY_FSTAB := device/samsung/cooperve/recovery/recovery.fstab
