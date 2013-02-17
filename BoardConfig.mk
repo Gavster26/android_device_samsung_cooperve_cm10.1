@@ -18,7 +18,7 @@
 # Product-specific compile-time definitions.
 #
 
-include device/samsung/bcm-21553-common/BoardConfigCommon.mk
+include device/samsung/bcm21553-common/BoardConfigCommon.mk
 
 ## Kernel, bootloader
 TARGET_BOOTLOADER_BOARD_NAME := cooperve
