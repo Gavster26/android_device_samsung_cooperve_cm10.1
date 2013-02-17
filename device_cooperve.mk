@@ -16,7 +16,7 @@
 # of hardware-specific resource overrides, typically the frameworks and
 # application settings that are stored in resourced.
 
-# Inherit products
+## Inherit products
 $(call inherit-product, build/target/product/languages_full.mk)
 $(call inherit-product, build/target/product/full_base.mk)
 $(call inherit-product, device/samsung/bcm21553-common/common.mk)
@@ -26,11 +26,11 @@ $(call inherit-product, vendor/samsung/cooperve/vendor_blobs.mk)
 ## $(call inherit-product, device/mdpi-common/mdpi.mk)
 DEVICE_PACKAGE_OVERLAYS := device/samsung/cooperve/overlay
 
-# MDPI assets
+## MDPI assets
 PRODUCT_AAPT_CONFIG := normal ldpi mdpi
 PRODUCT_AAPT_PREF_CONFIG := mdpi
 
-## kernel modules
+## Kernel modules
 PRODUCT_COPY_FILES += \
     device/samsung/cooperve/prebuilt/root/fsr.ko:root/fsr.ko \
     device/samsung/cooperve/prebuilt/root/fsr_stl.ko:root/fsr_stl.ko \
@@ -44,7 +44,7 @@ PRODUCT_COPY_FILES += \
     device/samsung/cooperve/prebuilt/root/ueventd.gt-s5830i.rc:root/ueventd.gt-s5830i.rc \
     device/samsung/cooperve/prebuilt/root/init.gt-s5830i.rc:root/init.gt-s5830i.rc
 
-# other kernel modules not in ramdisk
+## Other kernel modules not in ramdisk
 ifeq ($(TARGET_PREBUILT_KERNEL),)
     LOCAL_KERNEL := device/samsung/cooperve/prebuilt/kernel
 else
