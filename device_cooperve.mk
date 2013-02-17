@@ -46,7 +46,7 @@ PRODUCT_COPY_FILES += \
 
 # other kernel modules not in ramdisk
 ifeq ($(TARGET_PREBUILT_KERNEL),)
-    LOCAL_KERNEL := device/samsung/cooperve/kernel
+    LOCAL_KERNEL := device/samsung/cooperve/prebuilt/kernel
 else
     LOCAL_KERNEL := $(TARGET_PREBUILT_KERNEL)
 endif
