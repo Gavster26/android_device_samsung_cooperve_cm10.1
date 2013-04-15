@@ -41,18 +41,18 @@ PRODUCT_COPY_FILES += \
 
 # Keychars
 PRODUCT_COPY_FILES += \
-    device/samsung/cooperve/keychars/qwerty.kcm.bin:system/usr/keychars/qwerty.kcm.bin \
-    device/samsung/cooperve/keychars/qwerty2.kcm.bin:system/usr/keychars/qwerty2.kcm.bin \
-    device/samsung/cooperve/keychars/sec_key.kcm.bin:system/usr/keychars/sec_key.kcm.bin
+    device/samsung/cooperve/prebuilt/keychars/qwerty.kcm.bin:system/usr/keychars/qwerty.kcm.bin \
+    device/samsung/cooperve/prebuilt/keychars/qwerty2.kcm.bin:system/usr/keychars/qwerty2.kcm.bin \
+    device/samsung/cooperve/prebuilt/keychars/sec_key.kcm.bin:system/usr/keychars/sec_key.kcm.bin
 
 # Keylayouts
 PRODUCT_COPY_FILES += \
-    device/samsung/cooperve/keylayout/AVRCP.kl:system/usr/keylayout/AVRCP.kl \
-    device/samsung/cooperve/keylayout/bcm_headset.kl:system/usr/keylayout/bcm_headset.kl \
-    device/samsung/cooperve/keylayout/sec_jack.kl:system/usr/keylayout/sec_jack.kl \
-    device/samsung/cooperve/keylayout/sec_key.kl:system/usr/keylayout/sec_key.kl \
-    device/samsung/cooperve/keylayout/qwerty.kl:system/usr/keylayout/qwerty.kl \
-    device/samsung/cooperve/keylayout/sec_keypad.kl:system/usr/keylayout/sec_keypad.kl 
+    device/samsung/cooperve/prebuilt/keylayout/AVRCP.kl:system/usr/keylayout/AVRCP.kl \
+    device/samsung/cooperve/prebuilt/keylayout/bcm_headset.kl:system/usr/keylayout/bcm_headset.kl \
+    device/samsung/cooperve/prebuilt/keylayout/sec_jack.kl:system/usr/keylayout/sec_jack.kl \
+    device/samsung/cooperve/prebuilt/keylayout/sec_key.kl:system/usr/keylayout/sec_key.kl \
+    device/samsung/cooperve/prebuilt/keylayout/qwerty.kl:system/usr/keylayout/qwerty.kl \
+    device/samsung/cooperve/prebuilt/keylayout/sec_keypad.kl:system/usr/keylayout/sec_keypad.kl 
 
 ## Hardware properties 
 PRODUCT_COPY_FILES += \
