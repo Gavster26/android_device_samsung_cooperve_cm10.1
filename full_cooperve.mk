@@ -67,7 +67,7 @@ PRODUCT_COPY_FILES += \
 
 ## Kernel Modules
 PRODUCT_COPY_FILES += \
-    device/samsung/cooperve/prebuilt/brcm_headsetsw.ko:system/lib/modules/brcm_headsetsw.ko \
+    device/samsung/cooperve/prebuilt/bcm_headsetsw.ko:system/lib/modules/bcm_headsetsw.ko \
     device/samsung/cooperve/prebuilt/brcm_switch.ko:system/lib/modules/brcm_switch.ko \
     device/samsung/cooperve/prebuilt/dhd.ko:system/lib/modules/dhd.ko \
     device/samsung/cooperve/prebuilt/gememalloc.ko:system/lib/modules/gememalloc.ko \
